@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full Shift Workflow — AI-Assisted Shift Documentation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">AI-Assisted Shift Documentation<span class="llc">— Asdale Dynamics, LLC</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Rules</a>
+      <a href="getting-started.html">Getting Started</a>
+      <a href="report-sheets.html">Report Sheets</a>
+      <a href="handoff-notes.html">Handoff Notes</a>
+      <a href="patient-education.html">Patient Education</a>
+      <a href="workflow.html" class="active">Full Workflow</a>
+      <a href="disclaimers.html">Disclaimers</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <a class="back" href="index.html">&larr; Back to home</a>
+
+  <article class="article">
+    <h1>A Full Shift Workflow Example</h1>
+    <p>This chapter shows a complete, start-to-finish example of using AI for shift documentation. Every detail here is de-identified and fictional. None of it is a real patient.</p>
+
+    <h2>Scenario</h2>
+    <p>You are the primary nurse for two patients on a med-surg unit. It is 0700, start of shift. You need to:</p>
+    <ol>
+      <li>Review your patients and make report sheets</li>
+      <li>Receive handoff from the night nurse</li>
+      <li>Give medications and treatments</li>
+      <li>Document throughout the shift</li>
+      <li>Give handoff to the oncoming nurse at 1900</li>
+    </ol>
+
+    <h2>0700 — Start of shift</h2>
+    <p>You open your facility's EHR and review your two patients. You take notes on paper (your usual process).</p>
+    <p><b>Patient A — de-identified notes:</b></p>
+    <ul>
+      <li>Post-op day 1, abdominal surgery</li>
+      <li>Vitals stable</li>
+      <li>IV saline lock</li>
+      <li>Pain 3/10</li>
+      <li>Ambulated with assist x2</li>
+    </ul>
+    <p><b>Patient B — de-identified notes:</b></p>
+    <ul>
+      <li>Post-op day 2, appendectomy</li>
+      <li>Incision clean, dry, intact</li>
+      <li>Tolerating diet</li>
+      <li>Discharge planning started</li>
+    </ul>
+    <p>You do not paste names, room numbers, or MRNs anywhere yet.</p>
+
+    <h2>0715 — Draft report sheets with AI</h2>
+    <p>You open a fresh AI chat and set the role:</p>
+    <div class="quote">&ldquo;Help me organize de-identified shift details into a nursing report sheet template. Use sections for patient basics, vitals, IVs, medications, pending tasks, and concerns. No identifying details.&rdquo;</div>
+    <p>You paste your de-identified notes for Patient A and Patient B. The AI returns a tidy two-page report sheet. You review it against your paper notes and the EHR. Everything matches. You copy the final version into your facility's report sheet system (paper or EHR, per your unit).</p>
+
+    <h2>0730 — Receive handoff</h2>
+    <p>The night nurse gives you verbal handoff using SBAR. You compare it against your report sheets and the EHR. You note one change: Patient A's pain went up to 4/10 overnight. You update your report sheet.</p>
+
+    <h2>0900 — Medications</h2>
+    <p>Patient A is due acetaminophen for pain. You check the MAR in your EHR, verify the dose, and give the medication. You document administration in the EHR as always. You do not use AI for medication decisions — AI cannot check doses or interactions.</p>
+
+    <h2>1400 — Patient-education summary</h2>
+    <p>Patient B is being discharged tomorrow. You need a plain-language summary of wound care and activity restrictions. You open a fresh AI chat:</p>
+    <div class="quote">&ldquo;Rewrite these discharge instructions into plain language for a patient: keep the incision clean and dry, no tub baths for one week, walk three times daily, take acetaminophen for pain, call the office if fever over 100.4°F or redness/drainage increases. Use short sentences. No medical advice beyond what is listed.&rdquo;</div>
+    <p>You review the draft against the provider's discharge orders. It matches. You print it, review it with Patient B, and document the education in the EHR.</p>
+
+    <h2>1900 — End-of-shift handoff</h2>
+    <p>You open a fresh AI chat:</p>
+    <div class="quote">&ldquo;Help me draft an end-of-shift SBAR handoff for two de-identified patients. Patient A: post-op day 1 abdominal surgery, pain 4/10, ambulating with assist, IV saline lock. Patient B: post-op day 2 appendectomy, discharge tomorrow, incision clean, diet tolerated.&rdquo;</div>
+    <p>The AI drafts an SBAR summary. You review it, speak with the oncoming nurse, and review together. You document the handoff per facility policy.</p>
+
+    <h2>1930 — End of shift</h2>
+    <p>You close all AI chats. You do not save any AI drafts containing patient details. Your documentation lives only in your facility-approved system.</p>
+
+    <h2>What this example shows</h2>
+    <ul>
+      <li>AI helped draft wording and organize information</li>
+      <li>You supplied the real details from the chart</li>
+      <li>You reviewed every AI draft against the real patient record</li>
+      <li>No identifying patient information ever entered an AI tool</li>
+      <li>AI never made medication, assessment, or discharge decisions</li>
+    </ul>
+
+    <p class="small" style="color:var(--muted);border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem">Copyright (c) 2026 Asdale Dynamics, LLC. Education only — not medical advice.</p>
+  </article>
+</div>
+
+<footer class="site-footer">
+  <div class="small">Copyright (c) 2026 Asdale Dynamics, LLC</div>
+  <div class="small">Education only — not medical advice. Facility policy comes first.</div>
+</footer>
+
+</body>
+</html>

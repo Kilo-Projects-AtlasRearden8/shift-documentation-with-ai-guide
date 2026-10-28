@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Rules — AI-Assisted Shift Documentation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="brand" href="index.html">AI-Assisted Shift Documentation<span class="llc">— Asdale Dynamics, LLC</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="privacy.html" class="active">Privacy Rules</a>
+      <a href="getting-started.html">Getting Started</a>
+      <a href="report-sheets.html">Report Sheets</a>
+      <a href="handoff-notes.html">Handoff Notes</a>
+      <a href="patient-education.html">Patient Education</a>
+      <a href="workflow.html">Full Workflow</a>
+      <a href="disclaimers.html">Disclaimers</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <a class="back" href="index.html">&larr; Back to home</a>
+
+  <article class="article">
+    <h1>Privacy Rules: What Never Goes Into an AI Tool</h1>
+    <p><b>This chapter is the most important one in this manual. Read it before any other chapter.</b></p>
+
+    <div class="callout warn">
+      <b>The golden rule.</b> Never paste any information that could identify a real patient into an AI tool.
+    </div>
+
+    <p>That includes:</p>
+    <ul>
+      <li>Patient names (first, last, initials, nicknames)</li>
+      <li>Medical record numbers (MRN), account numbers, or chart numbers</li>
+      <li>Dates of birth, admission dates, discharge dates, or dates of service</li>
+      <li>Room numbers, bed numbers, or unit names combined with patient details</li>
+      <li>Phone numbers, addresses, email addresses</li>
+      <li>Social Security numbers</li>
+      <li>Photos of patients, patient wristbands, or patient documents</li>
+      <li>Any unique combination of details that could let someone figure out who the patient is</li>
+    </ul>
+
+    <p>If you are unsure whether something identifies a patient, leave it out. It is always safer to use made-up details.</p>
+
+    <h2>Why this matters</h2>
+    <p>Health information that identifies a person is protected health information (PHI). In the United States, HIPAA and state laws place strict limits on how PHI can be shared. Most AI tools are not HIPAA-compliant, and anything you paste into a public AI chat may be stored, reviewed, or used to train future models. Assume that anything you type into an AI tool could become public.</p>
+    <p>Your facility may also have its own rules that are stricter than HIPAA. Facility policy comes first.</p>
+
+    <h2>De-identify before you draft</h2>
+    <p>To use AI safely, strip everything identifying out of your notes first. Replace real details with obvious placeholders:</p>
+    <table>
+      <thead>
+        <tr><th>Real detail</th><th>De-identified replacement</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>&ldquo;Mrs. Jane Doe, room 412&rdquo;</td><td>&ldquo;Patient A, an older adult on the med-surg unit&rdquo;</td></tr>
+        <tr><td>&ldquo;DOB 03/14/1972&rdquo;</td><td>Age 54 (or leave age out if it could identify them)</td></tr>
+        <tr><td>&ldquo;MRN 8849201&rdquo;</td><td>Leave it out entirely</td></tr>
+        <tr><td>&ldquo;Admitted 10/05/2026&rdquo;</td><td>&ldquo;Admitted earlier this week&rdquo;</td></tr>
+        <tr><td>&ldquo;John Smith, CNA on 3 West&rdquo;</td><td>Leave names out; say &ldquo;the nursing assistant&rdquo;</td></tr>
+      </tbody>
+    </table>
+
+    <h2>What to do instead</h2>
+    <ol>
+      <li>Write your notes with real patient details in your facility-approved system (your EHR or paper flowsheet) as you always have.</li>
+      <li>Copy only de-identified details into the AI tool to help you draft wording.</li>
+      <li>Copy the AI draft back out, review it against the real chart, and enter the final version into your facility-approved system.</li>
+      <li>Never save AI drafts that contain patient information on your personal phone, computer, or cloud account.</li>
+    </ol>
+
+    <div class="callout warn">
+      <b>If you make a mistake.</b> If you accidentally paste identifying patient information into an AI tool:
+      <ol>
+        <li>Stop. Do not paste anything else.</li>
+        <li>Delete the chat if the tool allows it.</li>
+        <li>Report it to your facility's privacy or compliance officer, just as you would for any other possible privacy breach.</li>
+        <li>Follow your facility's incident reporting policy.</li>
+      </ol>
+    </div>
+
+    <p class="small" style="color:var(--muted);border-top:1px solid var(--line);margin-top:2rem;padding-top:1rem">Copyright (c) 2026 Asdale Dynamics, LLC. Education only — not medical advice.</p>
+  </article>
+</div>
+
+<footer class="site-footer">
+  <div class="small">Copyright (c) 2026 Asdale Dynamics, LLC</div>
+  <div class="small">Education only — not medical advice. Facility policy comes first.</div>
+</footer>
+
+</body>
+</html>
